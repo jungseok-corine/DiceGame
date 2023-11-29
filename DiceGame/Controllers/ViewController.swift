@@ -12,21 +12,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstImageView: UIImageView!
     @IBOutlet weak var secondImageView: UIImageView!
     
-    
+    var diceManager = DiceManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        
+        firstImageView.image = diceManager.firstRandomDice()
+        secondImageView.image = diceManager.firstRandomDice()
         
     }
 
     
     @IBAction func rollButtonTapped(_ sender: UIButton) {
         
-        firstImageView.image
-        secondImageView.image
+        firstImageView.image = diceManager.getRandomDice()
+        secondImageView.image = diceManager.getRandomDice()
         
     }
     

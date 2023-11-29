@@ -58,11 +58,11 @@
 		9908A7F72B135A2F0048F2E0 /* DiceGame */ = {
 			isa = PBXGroup;
 			children = (
+				9908A7F82B135A2F0048F2E0 /* AppDelegate.swift */,
+				9908A7FA2B135A2F0048F2E0 /* SceneDelegate.swift */,
 				9908A80C2B1385A90048F2E0 /* Models */,
 				9908A80E2B1385EC0048F2E0 /* Views */,
 				9908A80D2B1385B50048F2E0 /* Controllers */,
-				9908A7F82B135A2F0048F2E0 /* AppDelegate.swift */,
-				9908A7FA2B135A2F0048F2E0 /* SceneDelegate.swift */,
 				9908A8012B135A300048F2E0 /* Assets.xcassets */,
 				9908A8032B135A300048F2E0 /* LaunchScreen.storyboard */,
 				9908A8062B135A300048F2E0 /* Info.plist */,
